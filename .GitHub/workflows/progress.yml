@@ -1,4 +1,4 @@
-name: Update M-Sacco & E-wallet App Progress Metrics
+name: Update M-Sacco & E-Wallet Application development Progress Metrics
 
 on:
   pull_request:
