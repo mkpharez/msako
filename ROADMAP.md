@@ -1,5 +1,5 @@
 
-# ***Android E-Wallet App Roadmap***
+# ***Android E-Wallet & M-Sacco Fintech App Development Roadmap***
 
 ## 🚀 MSE10 2025: MVP Launch
 
