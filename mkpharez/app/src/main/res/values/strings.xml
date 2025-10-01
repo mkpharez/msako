@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">msakoWallet</string>
+    <string name="welcome_message">Welcome to msakoWallet</string>
+    <string name="app_description">M-Sacco &amp; E-Wallet Fintech Application</string>
+</resources>
