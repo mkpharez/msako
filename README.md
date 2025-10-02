@@ -1,5 +1,7 @@
 # msako - M-Sacco & E-Wallet Fintech Application
 
+[![Android CI - Build APK](https://github.com/mkpharez/msako/actions/workflows/android-build.yml/badge.svg)](https://github.com/mkpharez/msako/actions/workflows/android-build.yml)
+
 This repository contains the Android application for **msakoWallet**, an M-Sacco & E-Wallet Fintech application built with Kotlin.
 
 ## Project Structure
@@ -89,10 +91,35 @@ See [docs/ROADMAP.md](docs/ROADMAP.md) for the complete development roadmap incl
 - **MSE11 2025**: Expansion (Transaction Paging, Notifications, 2FA)
 - **MSE12 2025**: Hardening & Advanced Features (Analytics, Rewards, Bill Payments)
 
+## Continuous Integration
+
+This project uses GitHub Actions for automated builds:
+
+### Android Build Workflow
+
+The CI pipeline automatically builds the Android application on:
+- Push to `main` or `develop` branches
+- Pull requests to `main` or `develop` branches
+- Manual workflow dispatch
+
+**Workflow Features:**
+- ✅ Automated Debug APK build
+- ✅ Automated Release APK build
+- ✅ APK artifacts uploaded with 30-day retention
+- ✅ JDK 17 with Gradle caching
+- ✅ Android SDK setup
+
+**Artifacts:**
+- `msakoWallet-debug.apk` - Debug build for testing
+- `msakoWallet-release.apk` - Release build (unsigned)
+
+Download build artifacts from the [Actions tab](https://github.com/mkpharez/msako/actions).
+
 ## Documentation
 
 - [Architecture Overview](docs/ARCHITECTURE.md)
 - [Development Roadmap](docs/ROADMAP.md)
+- [CI/CD Pipeline](docs/CI_CD.md)
 - [Learning Log](docs/LEARNING_LOG.md)
 - [Weekly Retrospectives](docs/WEEKLY_RETROS.md)
 - [Android Project README](mkpharez/README.md)
